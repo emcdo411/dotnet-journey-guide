@@ -53,7 +53,7 @@ It gives developers:
 
 | Feature                 | .NET Framework           | .NET Core / .NET 5+            |
 | ----------------------- | ------------------------ | ------------------------------ |
-| 🧭 Platform Support     | Windows-only             | Cross-platform (Win/Mac/Linux) |
+| 🛍️ Platform Support    | Windows-only             | Cross-platform (Win/Mac/Linux) |
 | 🚀 Performance          | Slower                   | Faster & more scalable         |
 | 🛠 Updates              | Legacy (minimal updates) | Actively updated               |
 | 🧩 App Types Supported  | Web, Desktop (WinForms)  | Web, Desktop, Mobile, Cloud    |
@@ -78,15 +78,15 @@ When you write a C# program, it goes through a special process before it runs:
 
 ---
 
-## 🔬 Mermaid Diagram: Compilation Pipeline
+## 🧪 Mermaid Diagram: Compilation Pipeline
 
 ```mermaid
 flowchart LR
-    A[C# Source Code (.cs)] --> B[C# Compiler]
-    B --> C[MSIL Code]
-    C --> D[CLR - Common Language Runtime]
-    D --> E[JIT Compiler]
-    E --> F[Machine Code Execution]
+    A["C# Source Code (.cs)"] --> B["C# Compiler"]
+    B --> C["MSIL (Intermediate Language)"]
+    C --> D["CLR (Common Language Runtime)"]
+    D --> E["JIT Compiler"]
+    E --> F["Machine Code Execution"]
 
     style B fill:#60a5fa,color:#fff
     style C fill:#fcd34d,color:#000
@@ -101,12 +101,12 @@ flowchart LR
 
 ```mermaid
 graph TD
-    NET[.NET Platform] --> FW[.NET Framework]
-    NET --> CORE[.NET Core / .NET 5+]
-    CORE --> MAUI[.NET MAUI (Mobile/Desktop)]
-    CORE --> ASP[ASP.NET Core (Web)]
-    CORE --> BLAZOR[Blazor (WebAssembly)]
-    CORE --> EF[Entity Framework Core (Data)]
+    NET[".NET Platform"] --> FW[".NET Framework"]
+    NET --> CORE[".NET Core / .NET 5+"]
+    CORE --> MAUI[".NET MAUI - Mobile/Desktop"]
+    CORE --> ASP["ASP.NET Core - Web"]
+    CORE --> BLAZOR["Blazor - WebAssembly"]
+    CORE --> EF["Entity Framework Core - Data"]
 
     style FW fill:#6366f1,color:#fff
     style CORE fill:#3b82f6,color:#fff
@@ -118,7 +118,7 @@ graph TD
 
 ---
 
-## 🧰 Tech Stack
+## 🧠 Tech Stack
 
 ![.NET](https://img.shields.io/badge/Platform-.NET-blue?logo=dotnet)
 ![C#](https://img.shields.io/badge/Language-C%23-purple?logo=csharp)
@@ -141,10 +141,11 @@ Whether you’re a junior dev or a stakeholder in the C-suite:
 
 ---
 
-🔁 **Next Steps**:
+🔀 **Next Steps**:
 
 * Want a demo using MAUI or Blazor?
 * Need help migrating from .NET Framework?
 * Curious how to reduce cloud costs with .NET 8?
 
 Let's connect!
+
